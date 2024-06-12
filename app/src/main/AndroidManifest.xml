@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -12,6 +13,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Festival"
         tools:targetApi="31">
+
+        <activity
+            android:name=".ListShowGroupeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ShowGroupeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ListGroupeActivity$ShowGroupeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditUserActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".EditGroupeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ListGroupeActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".ListUserActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -21,7 +59,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
     </application>
 
 </manifest>

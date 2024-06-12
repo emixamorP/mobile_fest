@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewGroupeDescription" type="id" />
+    <item name="textViewNombreUtilisateur" type="id" />
+    <item name="inscription_button" type="id" />
+    <item name="login_button" type="id" />
+</resources>
